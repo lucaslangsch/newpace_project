@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;700&display=swap');
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 80vw;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+section.module p, h1 {
+  z-index: 20;
+}
+
+section.module.content {
+  padding: 40px 0;
+}
+
+section.module.content p {
+  font-size: var(--global-smaller-font);
+}
+
+section.module.parallax {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  background-position: 70% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+section.module.parallax:after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.25) 50%, rgba(0, 0, 0, 0.75) 100%);
+}
+
+section.module.parallax-1 {
+  background-image: url('../assets/bike_05.jpeg');
+}
+
+section.module.parallax-1 img{
+  width: 50%;
+  z-index: 20;
+}
+
+section.module.parallax-2 {
+  background-image: url('../assets/bike_03.jpg');
+  box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.801);
+}
+
+.btn-plans{
+  padding: 20px;
+  z-index: 20;
+  background-color: transparent;
+  border: 1px solid #ece7d5;
+  cursor: pointer;
+  color: #ece7d5;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.801);
+  font-size: var(--global-small-font);
+}
+
+.btn-plans:active{
+  transform: scale(1.1)
+}
+
+.icon-link {
+  position: absolute;
+  top: 10%;
+  left: 1%;
+  z-index: 20;
+}
+
+.container-modal {
+  width: 80vw;
+  margin: 5rem auto;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-image {
+  display: flex;
+  position: relative;
+  background-color: #8bfff1;
+  filter: invert(100%);
+
+}
+
+.tri::after {
+  content: 'TRIATLO';
+  position: absolute;
+  top: 90px;
+  font-size: 4rem;
+  color: rgb(190, 190, 190);
+  /* filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.801)); */
+  text-shadow: 3px -3px #000000;
+}
+
+.bike::after {
+  content: 'CICLISMO';
+  position: absolute;
+  top: 90px;
+  font-size: 4rem;
+  color: rgb(190, 190, 190);
+}
+
+.run::after {
+  content: 'CORRIDA';
+  position: absolute;
+  top: 90px;
+  font-size: 4rem;
+  color: rgb(190, 190, 190);
+}
+
+.swim::after {
+  content: 'NATAÇÃO';
+  position: absolute;
+  top: 90px;
+  font-size: 4rem;
+  color: rgb(190, 190, 190);
+  /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(124, 0, 0, 0.25) 50%, rgba(124, 0, 0, 0.75) 100%); */
+}
+
+@media screen and (max-width: 1024px) {
+  .modal {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500;700&display=swap');
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: 'Hind Siliguri', sans-serif;
+  color: black;
+  background-color: rgb(226,226,226);
+
+
+  /* variables */
+  --global-smaller-font: 1.2rem;
+  --global-small-font: 1.6rem;
+  --global-smmedium-font: 2.0rem;
+  --global-medium-font: 2.5rem;
+  --global-large-font: 6rem;
+
+  --global-color-white: rgb(226,226,226);
+  --global-color-red: rgb(124, 0, 0);
+  --global-color-black: rgb(22, 21, 21);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+button input{
+  font-family: 'Hind Siliguri', sans-serif;;
+}

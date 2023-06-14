@@ -1,0 +1,46 @@
+.header {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  padding: 20px 0 5px 0;
+  width: 100%;
+  max-width: 100vw;
+  transition: opacity 0.3s ease;
+  z-index: 30;
+  font-size: var(--global-smaller-font);
+}
+
+.scrolled {
+  opacity: 0.6;
+}
+
+.header > a {
+  padding-left: 10vw;
+  display: flex;
+}
+
+.header-nav > a > svg {
+  vertical-align: middle;
+  vertical-align: sub;
+}
+
+.header-nav > a {
+  margin-right: 10px;
+}
+
+.header-nav > a:last-child {
+  padding-right: 10vw;
+  margin: 0;
+}
+
+.header:hover {
+  opacity: 1;
+}
+
+.header img {
+  width: 100px;
+}
