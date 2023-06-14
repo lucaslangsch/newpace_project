@@ -1,0 +1,67 @@
+.container-modal {
+  width: 80vw;
+  margin: 5rem auto;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-image {
+  display: flex;
+  position: relative;
+  background-color: #8bfff1;
+  filter: invert(100%);
+}
+
+.tri::after {
+  content: 'TRIATLO';
+  position: absolute;
+  top: 90px;
+  font-size: 4rem;
+  color: rgb(200, 200, 200);
+  /* filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.801)); */
+  text-shadow: 3px -3px #000000;
+}
+
+.bike::after {
+  content: 'CICLISMO';
+  position: absolute;
+  top: 90px;
+  font-size: 4rem;
+  color: rgb(200, 200, 200);
+  text-shadow: 3px -3px #000000;
+}
+
+.run::after {
+  content: 'CORRIDA';
+  position: absolute;
+  top: 90px;
+  font-size: 4rem;
+  color: rgb(200, 200, 200);
+  text-shadow: 3px -3px #000000;
+}
+
+.swim::after {
+  content: 'NATAÇÃO';
+  position: absolute;
+  top: 90px;
+  font-size: 4rem;
+  color: rgb(200, 200, 200);
+  text-shadow: 3px -3px #000000;
+}
+
+@media screen and (max-width: 1024px) {
+  .modal {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 55px;
+  }
+
+}
