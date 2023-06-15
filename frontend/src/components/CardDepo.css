@@ -1,0 +1,77 @@
+.slider {
+  width: 80vw;
+  max-width: 1060px;
+  background-color: transparent;
+  box-shadow: none;
+  margin: 0 auto;
+}
+
+.slider h2 {
+  width: 110%;
+  margin: 0 -5%;
+}
+
+.card-slider {
+  width: 100%;
+  height: 700px;
+  margin-top: 2.5rem;
+}
+
+.container-2 {
+  color: #e2e2e2;
+  background-color: rgb(124, 0, 0);
+  width: 95%;
+  height: 98%;
+  max-width: 1060px;
+  margin: 0 auto;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.801);
+  overflow: hidden;
+}
+
+.container-2 > img {
+  height: 700px;
+  /* clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%); */
+  clip-path: polygon(0 0, 0 100%, 75% 100%, 75% 48%, 93% 43%, 75% 21%, 75% 0);
+}
+
+.container-depo {
+  position: relative;
+
+}
+
+.container-depo::before {
+  content: '\201D';
+  position: absolute;
+  font-size: 12rem;
+  color: #e2e2e291;
+  top: -6rem;
+  left: -1rem;
+}
+
+.container-depo::after {
+  content: '\201C';
+  position: absolute;
+  font-size: 180px;
+  color: #e2e2e291;
+  /* top: 6rem; */
+  line-height: 1.1em;
+}
+
+@media screen and (max-width: 1024px) {
+  .container-2 {
+    flex-direction: column;
+  }
+  
+  .container-2 > img {
+    width: 100%;
+    object-fit:cover;
+    overflow: hidden;
+    clip-path: none;
+    object-position:center;
+
+  }
+}

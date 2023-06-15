@@ -8,16 +8,19 @@
 .container {
   width: 80vw;
   max-width: 1060px;
-  margin: 0 auto;
+  margin: 10rem auto;
+  gap: 5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 section.module p, h1 {
   z-index: 20;
 }
 
-section.module.content {
+/* section.module.content {
   padding: 40px 0;
-}
+} */
 
 section.module.content p {
   font-size: var(--global-smaller-font);

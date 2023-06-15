@@ -8,9 +8,10 @@ import './Modality.css';
 class Modality extends Component {
   render() {
     return (
+      <div className='container'>
 
       <div className="container-modal">
-        <h2>QUAL <span className="strong">ESPORTE</span> É O SEU:</h2>
+        <h2>QUAL <span className="strong">ESPORTE</span> É O SEU?</h2>
         <div className="modal">
           <div className="modal-image to-up swim">
             <img src={ logoSwim } alt="" />
@@ -25,6 +26,7 @@ class Modality extends Component {
             <img src={ logoTri } alt="" />
           </div>
         </div>
+      </div>
       </div>
 
     );

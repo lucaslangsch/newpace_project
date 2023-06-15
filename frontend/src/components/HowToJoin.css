@@ -1,4 +1,4 @@
-.step-container {
+/* .step-container {
   display: flex;
   width: 120%;
   margin: 0 -10%;
@@ -29,10 +29,10 @@
   text-align: center;
   font-size: 2.5rem;
   z-index: 40;
-  position: absolute; /* Adicione essa linha para posicionar corretamente o texto */
-  top: 50%; /* Posicione o texto verticalmente no centro do retângulo */
-  left: 50%; /* Posicione o texto horizontalmente no centro do retângulo */
-  transform: translate(-50%, -50%); /* Centralize o texto no retângulo */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .rect-1 {
@@ -60,10 +60,10 @@
   text-align: center;
   font-size: 2.5rem;
   z-index: 40;
-  position: absolute; /* Adicione essa linha para posicionar corretamente o texto */
-  top: 50%; /* Posicione o texto verticalmente no centro do retângulo */
-  left: 60%; /* Posicione o texto horizontalmente no centro do retângulo */
-  transform: translate(-50%, -50%); /* Centralize o texto no retângulo */
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
 }
 
 .rect-2::after {
@@ -71,8 +71,8 @@
   text-align: center;
   font-size: 2.5rem;
   z-index: 40;
-  position: absolute; /* Adicione essa linha para posicionar corretamente o texto */
-  top: 50%; /* Posicione o texto verticalmente no centro do retângulo */
-  left: 55%; /* Posicione o texto horizontalmente no centro do retângulo */
-  transform: translate(-50%, -50%); /* Centralize o texto no retângulo */
-}
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+} */

@@ -1,0 +1,109 @@
+.step-container {
+  display: flex;
+  flex-direction: column;
+  width: 110%;
+  margin: 3rem -5%;
+  row-gap: 2.5rem;
+}
+
+.steps {
+  margin-top: 6rem;
+}
+
+.pre-step {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* gap: 2.5rem; */
+}
+
+.pre-step h3{
+  min-width: 225px;
+  margin: 0 20px;
+}
+
+.rect {
+  display: flex;
+  min-width: 380px;
+  height: 200px;
+  background-color: var(--global-color-red);
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 50%, 0% 0%);
+  position: relative;
+}
+
+.shadow {
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.801));
+}
+
+.step-number {
+  margin-top: 10px;
+  font-size: 18rem;
+  line-height: 200px;
+  margin-right: 2.5rem;
+}
+
+.step-number-to-align {
+  margin-right: 0;
+}
+
+.step-number-to-align-2 {
+  margin-right: 10px;
+}
+
+.rect-1 {
+  display: flex;
+  min-width: 380px;
+  height: 200px;
+  background-color: var(--global-color-red);
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 50%, 0% 0%);
+  position: relative; 
+}
+
+.rect-2 {
+  display: flex;
+  min-width: 380px;
+  height: 200px;
+  background-color: var(--global-color-red);
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0 50%, 0% 0%);
+  position: relative; 
+}
+
+.rect::after {
+  color: var(--global-color-white);
+  line-height: 1.0;
+  content: 'ESCOLHA SUA MODALIDADE';
+  text-align: left;
+  font-size: 2.5rem;
+  z-index: 40;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.rect-1::after {
+  color: var(--global-color-white);
+  line-height: 1.0;
+  content: 'MÉTODO DE AULA';
+  text-align: left;
+  font-size: 2.5rem;
+  z-index: 40;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.rect-2::after {
+  color: var(--global-color-white);
+  line-height: 1.0;
+  content: 'ESCOLHA SEU TEMPO';
+  text-align: left;
+  align-content: flex-start;
+  font-size: 2.5rem;
+  z-index: 40;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
