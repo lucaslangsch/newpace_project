@@ -6,6 +6,7 @@ import './Home.css';
 import Modality from '../components/Modality';
 import HowToJoinUs from '../components/JoinUs';
 import CardDepo from '../components/CardDepo';
+import Footer from '../components/Footer';
 
 class Home extends Component {
   render() {
@@ -39,6 +40,7 @@ class Home extends Component {
 
           </div>
         </main>
+        <Footer />
       </>
     );
   }
