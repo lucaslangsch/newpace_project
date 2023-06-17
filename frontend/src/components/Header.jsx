@@ -21,13 +21,11 @@ function Header() {
 
   return (
     <header className={ `${headerOpacity ? 'scrolled' : ''} header` }>
-      <a>
-        <img src={ logo } alt="" />
-      </a>
+      <img src={ logo } alt="" />
       <nav className="header-nav">
-        <a>INÍCIO</a>
-        <a>PLANOS</a>
-        <a><AiOutlineInstagram /></a>
+        <a href='/'>INÍCIO</a>
+        <a href='/planos'>PLANOS</a>
+        <a target="_blank" href='https://www.instagram.com/newpaceassessoria/'><AiOutlineInstagram /></a>
         <a><AiOutlineWhatsApp /></a>
       </nav>
     </header>

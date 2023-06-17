@@ -18,7 +18,7 @@
   opacity: 0.6;
 }
 
-.header > a {
+.header > img {
   padding-left: 10vw;
   display: flex;
 }
@@ -43,4 +43,12 @@
 
 .header img {
   width: 100px;
+}
+
+.header a:link {
+  color: var(--global-color-black);
+}
+
+.header a:visited {
+  color: var(--global-color-black);
 }
