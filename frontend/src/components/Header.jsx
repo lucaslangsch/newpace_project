@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Header.css';
 import { AiOutlineInstagram, AiOutlineWhatsApp } from 'react-icons/ai';
 import logo from '../assets/logo_np.png';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 function Header() {
   const [headerOpacity, setHeaderOpacity] = useState(false);
@@ -23,8 +24,8 @@ function Header() {
     <header className={ `${headerOpacity ? 'scrolled' : ''} header` }>
       <img src={ logo } alt="" />
       <nav className="header-nav">
-        <a href='/'>INÍCIO</a>
-        <a href='/planos'>PLANOS</a>
+        <Link to='/'>INÍCIO</Link>
+        <Link to='/planos'>PLANOS</Link>
         <a target="_blank" href='https://www.instagram.com/newpaceassessoria/'><AiOutlineInstagram /></a>
         <a><AiOutlineWhatsApp /></a>
       </nav>

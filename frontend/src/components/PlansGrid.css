@@ -49,10 +49,9 @@
 }
 
 
-.card-plan button {
+/* .card-plan button {
   margin: 20px;
   align-self: center;
-  /* width: 90%; */
   padding: 20px;
   z-index: 20;
   background-color: transparent;
@@ -61,12 +60,12 @@
   color: #ece7d5;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.801);
   font-size: var(--global-small-font);
-}
+} */
 
 .card-plan button {
   margin: 20px;
   align-self: center;
-  /* width: 90%; */
+  width: 90%;
   padding: 20px;
   z-index: 20;
   background-color: transparent;
@@ -75,6 +74,11 @@
   color: #ece7d5;
   box-shadow: none;
   font-size: var(--global-small-font);
+}
+
+.card-plan button:hover {
+  border: 1px solid white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.801);
 }
 
 .smal-font {

@@ -6,8 +6,8 @@ import Plans from './pages/Plans';
 function App() {
   return (
     <Switch>
-      <Route exact path="/" component={ Home } />
       <Route exact path="/planos" component={ Plans } />
+      <Route path="/" component={ Home } />
     </Switch>
   );
 }

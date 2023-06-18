@@ -15,7 +15,7 @@ function Footer() {
       <div className='footer-right'>
         <h2>QUER SER NOSSO <span className="strong-footer"> PARCEIRO? </span></h2>
         <p>Conheça o clube NP, e venha integrar nossa rede técnica de empresas e profissionais.</p>
-        <a className='link-partners'>saiba mais &gt;&gt;&gt;</a>
+        <a className='link-partners'>saiba mais <span className='t'>&gt;&gt;&gt;</span></a>
         {/* <button className="btn-plans">CONHEÇA OS PLANOS</button> */}
       </div>
     </footer>

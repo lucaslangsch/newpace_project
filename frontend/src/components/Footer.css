@@ -60,6 +60,11 @@ footer a {
   color: rgba(255, 255, 255, 0.507);
 }
 
+.link-partners:hover .t::before {
+  content: '\00A0\00A0\00A0';
+  
+}
+
 /* .link-partners::after {
   content: '\003E\003E\003E';
   text-decoration: underline;

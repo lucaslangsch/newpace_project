@@ -9,7 +9,12 @@ import CardDepo from '../components/CardDepo';
 import Footer from '../components/Footer';
 
 class Home extends Component {
+  handleClick = () => {
+    const { history } = this.props;
+    history.push('/planos');
+  }
   render() {
+    
     return (
       <>
         <Header />
@@ -29,7 +34,7 @@ class Home extends Component {
 
             <section className="module parallax parallax-2">
               <h1>MODALIDADES</h1>
-              <button className="btn-plans">CONHEÇA OS PLANOS</button>
+              <button className="btn-plans" onClick={ this.handleClick }>CONHEÇA OS PLANOS</button>
             </section>
 
             <section className="module content">
