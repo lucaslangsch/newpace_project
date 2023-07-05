@@ -8,8 +8,8 @@ class JoinUs extends Component {
 
         <div className="step-container">
           <h2>COMO ENTRAR PARA A <span className="strong">NEWPACE:</span></h2>
-          <div className='pre-step'>
-            <span className='step-number'>1</span>
+          <div className="pre-step">
+            <span className="step-number">1</span>
             <div className="shadow">
               <div className="rect" />
             </div>
@@ -20,8 +20,8 @@ class JoinUs extends Component {
               avançado em corrida e dar suas primeiras braçadas na natação
             </p>
           </div>
-          <div className='pre-step'>
-          <span className='step-number step-number-to-align'>2</span>
+          <div className="pre-step">
+            <span className="step-number step-number-to-align">2</span>
             <div className="shadow">
               <div className="rect-1" />
             </div>
@@ -32,8 +32,8 @@ class JoinUs extends Component {
               pode marcar um aula avulsa presencial caso queira
             </p>
           </div>
-          <div className='pre-step'>
-          <span className='step-number step-number-to-align-2'>3</span>
+          <div className="pre-step">
+            <span className="step-number step-number-to-align-2">3</span>
             <div className="shadow">
               <div className="rect-2" />
             </div>

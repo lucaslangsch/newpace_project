@@ -12,9 +12,9 @@ class Home extends Component {
   handleClick = () => {
     const { history } = this.props;
     history.push('/planos');
-  }
+  };
+
   render() {
-    
     return (
       <>
         <Header />
