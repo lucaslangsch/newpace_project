@@ -1,7 +1,11 @@
 section.module.parallax-3 {
-  background-image: url('../assets/geral_05.jpg');
+  background-image: url('../assets/geral_07.jpg');
   background-size: cover;
   background-position: center left;
+}
+
+section.module.parallax-3 > h1 {
+  margin-top: 450px;
 }
 
 .container {

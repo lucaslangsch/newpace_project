@@ -57,6 +57,7 @@ section.module.parallax-1 {
 }
 
 section.module.parallax-1 img{
+  margin-top: 450px;
   width: 50%;
   z-index: 20;
 }

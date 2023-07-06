@@ -18,15 +18,17 @@
 .card-plan p {
   font-weight: 500;
   margin: 20px;
+  text-align: center;
 }
 
 .linha-horizontal {
   align-self: center;
-  width: 90%;
+  width: 80%;
   border: 1px solid white;
 }
 
 .title{
+  margin-top: 25px;
   text-align: center;
   background-clip: text;
   /* background-image: blue; */

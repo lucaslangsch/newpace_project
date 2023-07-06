@@ -43,7 +43,8 @@ class PlansGrid extends Component {
         <section className="grid-plans">
           <div className="title-plan">
             <h2>
-              TRÊS MODALIDES
+              TRÊS MODALIDES OU&nbsp;
+              <span className="strong">TRIATLO</span>
             </h2>
           </div>
           <Plan plan={ oneSport.online } method="ONLINE" />

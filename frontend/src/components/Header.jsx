@@ -27,7 +27,7 @@ function Header() {
         <Link to="/">INÍCIO</Link>
         <Link to="/planos">PLANOS</Link>
         <a target="_blank" href="https://www.instagram.com/newpaceassessoria/" rel="noreferrer"><AiOutlineInstagram /></a>
-        <a><AiOutlineWhatsApp /></a>
+        <a href="https://api.whatsapp.com/send?phone=5548999408873"><AiOutlineWhatsApp /></a>
       </nav>
     </header>
   );

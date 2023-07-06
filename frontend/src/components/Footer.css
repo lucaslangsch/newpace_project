@@ -22,8 +22,8 @@
   gap: 25px;
 }
 
-.footer-left h2 {
-  margin-right: 25px;
+.footer-left > h2 {
+  margin-right: 50px;
 }
 
 .footer-right{
@@ -37,8 +37,12 @@
   text-align: left;
 }
 
-.footer-right > h2, p {
-  margin-left: 25px;
+.footer-right > h2 {
+  margin-left: 50px;
+}
+
+.footer-right > p {
+  margin-left: 50px;
 }
 
 
@@ -53,7 +57,7 @@ footer a {
   width: fit-content;
   text-decoration: underline;
   cursor: pointer;
-  margin-left: 25px;
+  margin-left: 50px;
 }
 
 .link-partners:hover {
@@ -73,7 +77,7 @@ footer a {
 } */
 
 .link {
-  width: fit-content;
+  size: 50px;
   cursor: pointer;
-  margin-right: 25px;
+  margin-right: 50px;
 }

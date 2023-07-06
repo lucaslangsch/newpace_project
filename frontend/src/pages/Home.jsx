@@ -12,6 +12,10 @@ class Home extends Component {
   handleClick = () => {
     const { history } = this.props;
     history.push('/planos');
+
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
   };
 
   render() {

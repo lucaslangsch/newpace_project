@@ -11,7 +11,7 @@ const oneSport = {
       plan: 'PLANO TRIMESTRAL',
       value: '3x R$ 120,00',
       subscription: 'R$ 25,00',
-      equivalent: null,
+      equivalent: 'R$ 120,00',
       link: 'https://mpago.la/1LcQQra',
     },
     semester: {
@@ -41,7 +41,7 @@ const oneSport = {
       plan: 'PLANO TRIMESTRAL',
       value: '3x R$ 130,00',
       subscription: 'R$ 25,00',
-      equivalent: null,
+      equivalent: 'R$ 130,00',
       link: 'https://mpago.la/1LcQQra',
     },
     semester: {
