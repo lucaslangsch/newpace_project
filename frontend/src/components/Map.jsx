@@ -10,17 +10,29 @@ class Map extends Component {
   render() {
     const {location} = this.props;
     return (
-      <LoadScript
-        googleMapsApiKey="AIzaSyBR97BnYUY7o1fZUo3vvKUv128Rk7fhSOU"
-      >
-        <GoogleMap
-          mapContainerStyle={containerStyle}
-          center={location}
-          zoom={14}
-        >
-          <MarkerF position={location}/>
-        </GoogleMap>
-      </LoadScript>
+      <>
+        {
+          window.google === undefined ? 
+            <LoadScript
+              googleMapsApiKey="AIzaSyBR97BnYUY7o1fZUo3vvKUv128Rk7fhSOU"
+            >
+            <GoogleMap
+              mapContainerStyle={containerStyle}
+              center={location}
+              zoom={14}
+            >
+              <MarkerF position={location}/>
+            </GoogleMap>
+            </LoadScript> :
+            <GoogleMap
+              mapContainerStyle={containerStyle}
+              center={location}
+              zoom={14}
+            >
+              <MarkerF position={location}/>
+            </GoogleMap>
+        }
+      </>
     )
   }
 }
