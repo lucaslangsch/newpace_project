@@ -14,7 +14,7 @@ class Map extends Component {
         {
           window.google === undefined ? 
             <LoadScript
-              googleMapsApiKey={import.meta.env.VITE_API_GOOGLE_KEY}
+              googleMapsApiKey='AIzaSyBR97BnYUY7o1fZUo3vvKUv128Rk7fhSOU'
             >
             <GoogleMap
               mapContainerStyle={containerStyle}
