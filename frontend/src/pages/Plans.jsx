@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import './Plans.css';
 import PlansGrid from '../components/PlansGrid';
 
-class Home extends Component {
+class Plans extends Component {
   render() {
     return (
       <>
@@ -24,4 +24,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Plans;

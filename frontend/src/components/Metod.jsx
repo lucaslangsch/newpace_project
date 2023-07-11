@@ -28,9 +28,7 @@ class Metod extends Component {
           <div className="linha-horizontal" />
           <p>Testes de esforço máximo em campo</p>
           <div className="linha-horizontal" />
-          <p>Contato via whatsapp ou email</p>
-          <div className="linha-horizontal" />
-          <p>Descontos com nossos parceiros</p>
+          <p>Contato via whatsapp ou email ILIMITADO</p>
         </div>
         <div className="card-plan">
           <div className="title">
@@ -50,9 +48,7 @@ class Metod extends Component {
           <div className="linha-horizontal" />
           <p>Testes de esforço máximo em campo</p>
           <div className="linha-horizontal" />
-          <p>Contato via whatsapp ou email</p>
-          <div className="linha-horizontal" />
-          <p>Descontos com nossos parceiros</p>
+          <p>Contato via whatsapp ou email ILIMITADO</p>
         </div>
       </section>
     );

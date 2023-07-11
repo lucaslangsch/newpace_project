@@ -4,7 +4,7 @@ import './JoinUs.css';
 class JoinUs extends Component {
   render() {
     return (
-      <div className="container steps">
+      <div className="steps">
 
         <div className="step-container">
           <h2>COMO ENTRAR PARA A <span className="strong">NEWPACE:</span></h2>

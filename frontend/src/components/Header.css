@@ -29,12 +29,12 @@
 }
 
 .header-nav > a {
-  margin-right: 10px;
+  padding: 15px;
 }
 
 .header-nav > a:last-child {
-  padding-right: 10vw;
-  margin: 0;
+  margin-right: 10vw;
+  padding-right: 0;
 }
 
 .header:hover {

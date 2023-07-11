@@ -1,6 +1,5 @@
 .grid-plans {
   width: calc(80vw - 15px);
-  /* max-width: 1260px; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 10rem auto;
@@ -45,7 +44,12 @@
 }
 
 
-.title-plan h2 {
+.title-plan > h2 {
+  max-width: 400px;
+  width: fit-content;
+}
+
+.title-plan > p {
   max-width: 400px;
   width: fit-content;
 }
@@ -88,6 +92,17 @@
   font-size: var(--global-smaller-font);
 }
 
+.reason {
+  text-align: center;
+  width: max-content;
+  justify-content: center;
+  justify-self: center;
+}
+
+.reason > h2{
+  width: 100%;
+}
+
 @media (max-width: 1260px) {
   .grid-plans {
     grid-template-columns: 1fr 1fr;
@@ -100,5 +115,36 @@
 
   .title-plan h3 {
     max-width: 800px;
+  }
+}
+
+@media (max-width: 680px) {
+  .grid-plans {
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content 1fr;
+    margin: 5rem auto;
+  }
+
+  .title-plan {
+    grid-column: 1/2;
+  }
+
+  .title-plan h3 {
+    max-width: 600px;
+  }
+
+
+  .card-plan button {
+    margin: 20px;
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  .reason {
+    width: fit-content;
+  }
+
+  .grid-plans {
+    width: calc(90vw);
   }
 }

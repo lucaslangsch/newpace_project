@@ -12,13 +12,14 @@ class Home extends Component {
   handleClick = () => {
     const { history } = this.props;
     history.push('/planos');
-
+    
     setTimeout(() => {
       window.scrollTo(0, 0);
     }, 100);
   };
-
+  
   render() {
+    console.log(import.meta.env.VITE_API_KEY)
     return (
       <>
         <Header />

@@ -2,6 +2,7 @@ section.module.parallax-3 {
   background-image: url('../assets/geral_07.jpg');
   background-size: cover;
   background-position: center left;
+  background-position: 70% 50%;
 }
 
 section.module.parallax-3 > h1 {
@@ -11,7 +12,6 @@ section.module.parallax-3 > h1 {
 .container {
   width: 80vw;
   max-width: 1060px;
-  margin: 10rem auto;
   gap: 5rem;
   display: flex;
   flex-direction: column;
@@ -21,11 +21,11 @@ section.module p, h1 {
   z-index: 20;
 }
 
-section.module.content p {
-  font-size: var(--global-smaller-font);
-}
+/* section.module.content p {
+  font-size: 1.2rem;
+} */
 
-section.module.parallax {
+/* section.module.parallax {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,7 +40,7 @@ section.module.parallax {
   background-size: cover;
   background-attachment: fixed;
   color: white;
-}
+} */
 
 section.module.parallax:after {
   content: '';

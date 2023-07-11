@@ -18,12 +18,8 @@ section.module p, h1 {
   z-index: 20;
 }
 
-/* section.module.content {
-  padding: 40px 0;
-} */
-
 section.module.content p {
-  font-size: var(--global-smaller-font);
+  font-size: 1.2rem;
 }
 
 section.module.parallax {
@@ -36,7 +32,7 @@ section.module.parallax {
   position: relative;
   text-align: center;
   overflow: hidden;
-  background-position: 70% 50%;
+
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -54,6 +50,7 @@ section.module.parallax:after {
 
 section.module.parallax-1 {
   background-image: url('../assets/geral_01.jpg');
+  background-position: 70% 50%;
 }
 
 section.module.parallax-1 img{
@@ -65,6 +62,7 @@ section.module.parallax-1 img{
 section.module.parallax-2 {
   background-image: url('../assets/bike_03.jpg');
   box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.801);
+  background-position: 70% 50%;
 }
 
 .btn-plans{
@@ -87,4 +85,45 @@ section.module.parallax-2 {
   top: 10%;
   left: 1%;
   z-index: 20;
+}
+
+@media (max-width: 1024px) {
+  section.module.parallax-1 img{
+    margin-top: 250px;
+  }
+}
+
+@media (max-width: 800px) {
+  section.module.parallax-2 {
+    background-position: 40% 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 5rem auto;
+  }
+
+  section.module.parallax-1 {
+    background-position: 50% 50%;
+  }
+
+  section.module.parallax-2 {
+    background-position: 30% 50%;
+  }
+  section.module.content p, p {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 2.0rem;
+  }
+
+  .btn-plans{
+    font-size: 1rem;
+  }
+  
 }

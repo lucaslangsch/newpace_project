@@ -60,11 +60,25 @@
   text-shadow: 3px -3px #000000;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1180px) {
   .modal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 60px;
+  }
+
+  .modal-image {
+    width: min-content;
+  }
+
+}
+
+@media screen and (max-width: 670px) {
+  .modal {
+    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 55px;
+    width: 50%;
   }
 
 }
