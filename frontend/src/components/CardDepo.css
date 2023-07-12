@@ -104,3 +104,13 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  .container-depo{
+    margin: 35px 20px 45px 20px;
+  }
+
+  .slider h2 {
+    margin: 10px 30px 0 10px;
+  }
+}
+

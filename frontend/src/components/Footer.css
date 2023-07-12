@@ -55,7 +55,6 @@ footer a {
 
 .link-partners {
   width: fit-content;
-  text-decoration: underline;
   cursor: pointer;
   margin-left: 50px;
 }
@@ -66,7 +65,10 @@ footer a {
 
 .link-partners:hover .t::before {
   content: '\00A0\00A0\00A0';
-  
+}
+
+.link-partners:visited {
+  color: rgba(255, 255, 255, 0.486);
 }
 
 /* .link-partners::after {
