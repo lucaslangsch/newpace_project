@@ -5,6 +5,7 @@ import App from './App';
 import './index.css';
 import ScrollToTop from "./scrollToTop";
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <React.StrictMode>

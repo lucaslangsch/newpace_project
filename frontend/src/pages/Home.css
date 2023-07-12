@@ -32,7 +32,6 @@ section.module.parallax {
   position: relative;
   text-align: center;
   overflow: hidden;
-
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -105,11 +104,14 @@ section.module.parallax-2 {
   }
 
   section.module.parallax-1 {
-    background-position: 50% 50%;
+    background-position: center;
+    background-size: cover;
   }
 
   section.module.parallax-2 {
     background-position: 30% 50%;
+    background-size: cover;
+    background-clip: border-box;
   }
   section.module.content p, p {
     font-size: 1rem;
