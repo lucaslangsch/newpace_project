@@ -23,12 +23,12 @@
   display: flex;
 }
 
-.header-nav > a > svg {
+.header-nav > ul > a > svg {
   vertical-align: middle;
   vertical-align: sub;
 }
 
-.header-nav > a {
+.header-nav > ul > a {
   padding: 15px;
 }
 
@@ -51,4 +51,23 @@
 
 .header a:visited {
   color: var(--global-color-black);
+}
+
+.btn-display-mobile {
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .btn-display-mobile {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .menu-desktop {
+    display: none;
+  }
+
 }

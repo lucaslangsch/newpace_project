@@ -1,6 +1,6 @@
 import './Footer.css';
 import { IconContext } from "react-icons";
-import { AiOutlineInstagram, AiOutlineWhatsApp, AiOutlineYoutube } from 'react-icons/ai';
+import { AiOutlineInstagram, AiOutlineWhatsApp } from 'react-icons/ai';
 
 function Footer() {
   return (

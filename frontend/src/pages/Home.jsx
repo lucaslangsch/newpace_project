@@ -7,10 +7,44 @@ import Modality from '../components/Modality';
 import HowToJoinUs from '../components/JoinUs';
 import CardDepo from '../components/CardDepo';
 import Footer from '../components/Footer';
+import { useHistory } from 'react-router-dom/cjs/react-router-dom';
+import { useState } from 'react';
+import InternalProvider from '../checktout/ContextProvider';
+import Checkout from '../checktout/Checkout';
+import Payment from '../checktout/Payment';
 
-class Home extends Component {
-  handleClick = () => {
-    const { history } = this.props;
+const Home = () => {
+  const history = useHistory();
+
+
+  const [preferenceId, setPreferenceId] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [orderData, setOrderData] = useState({ quantity: "1", price: "10", amount: 10, description: "Some book" });
+
+  const handleClick = () => {
+    setIsLoading(true);
+    fetch("http://localhost:3001/create_preference", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(orderData),
+    })
+      .then((response) => {
+        return response.json();
+      })
+      .then((preference) => {
+        setPreferenceId(preference.id);
+      })
+      .catch((error) => {
+        console.error(error);
+      }).finally(() => {
+        setIsLoading(false);
+      })
+  };
+
+
+  const handleClickPlan = () => {
     history.push('/planos');
     
     setTimeout(() => {
@@ -18,8 +52,9 @@ class Home extends Component {
     }, 100);
   };
   
-  render() {
+
     return (
+      <InternalProvider context={{ preferenceId, isLoading, orderData, setOrderData }}>
       <>
         <Header />
         <main className="wrapper">
@@ -34,11 +69,13 @@ class Home extends Component {
 
             <section className="module content">
               <About />
+              <Checkout onClick={handleClick} description/>
+              <Payment />
             </section>
 
             <section className="module parallax parallax-2">
               <h1>MODALIDADES</h1>
-              <button className="btn-plans" onClick={ this.handleClick }>CONHEÇA OS PLANOS</button>
+              <button className="btn-plans" onClick={ handleClickPlan }>CONHEÇA OS PLANOS</button>
             </section>
 
             <section className="module content">
@@ -51,8 +88,9 @@ class Home extends Component {
         </main>
         <Footer />
       </>
+      </InternalProvider>
     );
-  }
+
 }
 
 export default Home;
