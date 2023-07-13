@@ -1,6 +1,6 @@
 import './Footer.css';
 import { IconContext } from "react-icons";
-import { AiOutlineInstagram, AiOutlineWhatsApp, AiOutlineYoutube } from 'react-icons/ai';
+import { AiOutlineInstagram, AiOutlineWhatsApp } from 'react-icons/ai';
 
 function Footer() {
   return (
@@ -17,8 +17,6 @@ function Footer() {
         <h2>QUER SER NOSSO <span className="strong-footer"> PARCEIRO? </span></h2>
         <p>Conheça o clube NP, e venha integrar nossa rede técnica de empresas e profissionais.</p>
         <a className="link-partners" target="_blank" href="https://wa.me/5548998544763?text=Ol%C3%A1,%20como%20fa%C3%A7o%20para%20ser%20um%20dos%20parceiros%20da%20Newpace%20Assessoria?">saiba mais <span className="t">&gt;&gt;&gt;</span></a>
-        <p>{import.meta.env.VITE_API_KEY}</p>
-        {/* <p>{process.env.VITE_API_GOOGLE}</p> */}
       </div>
     </footer>
     </IconContext.Provider>

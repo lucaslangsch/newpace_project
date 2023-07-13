@@ -57,10 +57,11 @@ footer a {
   width: fit-content;
   cursor: pointer;
   margin-left: 50px;
+  color: rgba(255, 255, 255, 0.486);
 }
 
 .link-partners:hover {
-  color: rgba(255, 255, 255, 0.507);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .link-partners:hover .t::before {
