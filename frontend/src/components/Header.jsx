@@ -36,7 +36,7 @@ function Header() {
   };
 
   return (
-    <IconContext.Provider value={{ size: "25px", color: 'rgb(124, 0, 0)' }}>
+    <IconContext.Provider value={{ className: 'react-icons' }}>
     <header className={ `${headerOpacity ? 'scrolled' : ''} header` }>
       <img src={ logo } alt="" />
       <nav ref={menuRef} className={`header-nav ${btnMenuActive ? 'active' : ''}`}>

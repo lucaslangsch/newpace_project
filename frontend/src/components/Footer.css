@@ -121,4 +121,8 @@ footer a {
   .link-partners {
     font-size: 2rem;
   }
+
+  .footer-right > p {
+    margin: 12px 12px 6px 12px;
+  }
 }
