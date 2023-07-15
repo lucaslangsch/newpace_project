@@ -11,9 +11,9 @@ class About extends Component {
           <div>
             <h3>DESDE 2010 CUIDANDO DE VOCÊ</h3>
             <p>
-              A NewPace Assessoria é uma empresa especializada no treinamento de caminhada, corrida, natação, ciclismo e triatlo.
+              A NewPace Assessoria é especializada no treinamento de caminhada, corrida, natação, ciclismo e triatlo.
               Com 16 anos de experiência, atendemos nossos atletas tanto presencialmente em Florianópolis como remotamente em todo o Brasil.
-              Os treinos são cuidadosamente planejados e elaborados por um educador físico e atleta com mais de 20 anos de experiência em preparação física.
+              Os treinos são cuidadosamente elaborados por educadores físicos com conhecimento especializado.
               A NewPace está aqui para ajudá-lo a alcançar seus objetivos, seja uma melhor qualidade de vida,
               participar da sua primeira corrida, completar uma maratona ou conquistar o tão sonhado IronMan.
             </p>
@@ -24,7 +24,7 @@ class About extends Component {
           <div className="about-description">
             <h2>Rodrigo Baltazar</h2>
             <br />
-            <p>Coach e fundador da NEWPACE</p>
+            <p>Coach e fundador da NewPace</p>
             <p>Educador físico</p>
             <p>Mestre em Ciências do Movimento pela UDESC </p>
             <p>Treinador CBtri Nível 2 </p>

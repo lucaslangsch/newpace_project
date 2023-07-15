@@ -67,7 +67,11 @@ class Locality extends Component {
             <div className='container-map'>
               <Map location={jurere}/>
             </div>
-            <p><strong>OBS:</strong> Os treinos nos finais de semana são itinerantes e não fixos e podem ocorrer dentro da ilha como em outras cidades, também podem variar entre sábado ou domingo</p>
+            <p className='obs-maps'>
+              <strong>OBS:</strong>
+              Os treinos nos finais de semana são itinerantes podendo ocorrer em locais ou cidades diferentes, 
+              quando o grupo participa de provas o encontro pode ser transferido para o local da prova.
+            </p>
           </div>
         </section>
         </main>

@@ -24,9 +24,7 @@ class Metod extends Component {
           <div className="linha-horizontal" />
           <p>Zonas de treino via percepção de esforço, pace, frequência cardíaca ou potência</p>
           <div className="linha-horizontal" />
-          <p>Atual Training Plan (ATP) para programação dos ciclos de treinos</p>
-          <div className="linha-horizontal" />
-          <p>Testes de esforço máximo em campo</p>
+          <p>Testes de esforço em campo</p>
           <div className="linha-horizontal" />
           <p>Contato via whatsapp ou email ILIMITADO</p>
         </div>
@@ -44,9 +42,7 @@ class Metod extends Component {
           <div className="linha-horizontal" />
           <p>Zonas de treino via percepção de esforço, pace, frequência cardíaca ou potência</p>
           <div className="linha-horizontal" />
-          <p>Atual Training Plan (ATP) para programação dos ciclos de treinos</p>
-          <div className="linha-horizontal" />
-          <p>Testes de esforço máximo em campo</p>
+          <p>Testes de esforço em campo</p>
           <div className="linha-horizontal" />
           <p>Contato via whatsapp ou email ILIMITADO</p>
         </div>

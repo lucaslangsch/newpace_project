@@ -13,6 +13,10 @@ section.module.parallax-4 > h1 {
   height: 400px;
 }
 
+.obs-maps {
+  margin-top: 1rem;
+}
+
 @media (max-width: 800px) {
   section.module.parallax-4 {
     background-position: 40% 50%;

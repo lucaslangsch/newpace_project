@@ -101,6 +101,23 @@ section.module.parallax-2 {
   }
 }
 
+@media (max-width: 680px) {
+  section.module.content p, p {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  .btn-plans{
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 600px) {
   .container {
     margin: 5rem auto;
@@ -129,6 +146,7 @@ section.module.parallax-2 {
 
   .btn-plans{
     font-size: 1rem;
+    padding: 15px;
   }
   
 }

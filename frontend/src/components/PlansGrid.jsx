@@ -19,7 +19,7 @@ class PlansGrid extends Component {
             <h2>
               PROFISSIONALISMO
             </h2>
-            <p>Você terá o acompanhamento de um educador físico para dar feedbacks e realizar as correções necessárias.</p>
+            <p>Você terá o acompanhamento de um educador físico para dar feedbacks e realizar as alterações necessárias.</p>
           </div>
           <div className="title-plan reason">
             <h2>

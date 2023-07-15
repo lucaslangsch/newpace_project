@@ -101,7 +101,8 @@ footer a {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin: 7rem 0 -25px 0;
+    height: auto;
+    margin: 7rem 0 -45px 0;
   }
 
   .footer-left, .footer-right {
