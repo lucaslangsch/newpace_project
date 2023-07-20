@@ -15,8 +15,8 @@ const carvoeira = {
 };
 
 const jurere = {
-  lat: -27.436677,
-  lng: -48.505060
+  lat: -27.437518,
+  lng: -48.501598
 };
 
 class Locality extends Component {

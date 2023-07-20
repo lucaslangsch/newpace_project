@@ -8,13 +8,16 @@ const containerStyle = {
 
 class Map extends Component {
   render() {
+    const key = import.meta.env.MODE === 'development'
+    ? import.meta.env.VITE_API_GKEY // Usa a chave de desenvolvimento durante a fase de desenvolvimento
+    : process.env.VITE_API_GKEY;    // Usa a chave de produção durante a fase de produção
     const {location} = this.props;
     return (
       <>
         {
           window.google === undefined ? 
             <LoadScript
-              googleMapsApiKey='AIzaSyBR97BnYUY7o1fZUo3vvKUv128Rk7fhSOU'
+              googleMapsApiKey={key}
             >
             <GoogleMap
               mapContainerStyle={containerStyle}

@@ -73,6 +73,7 @@
 @media screen and (max-width: 1024px) {
   .container-2 {
     flex-direction: column;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.801);
   }
   
   .container-2 > img {
@@ -105,6 +106,10 @@
 }
 
 @media screen and (max-width: 450px) {
+  .container-2 {
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.801);
+  }
+
   .container-depo{
     margin: 35px 20px 45px 20px;
   }
