@@ -8,9 +8,10 @@ const containerStyle = {
 
 class Map extends Component {
   render() {
-    const key = import.meta.env.MODE === 'development'
+    const key = import.meta.env.DEV
     ? import.meta.env.VITE_API_GKEY // Usa a chave de desenvolvimento durante a fase de desenvolvimento
     : process.env.VITE_API_GKEY;    // Usa a chave de produção durante a fase de produção
+    console.log('meta.env: ',import.meta.env);
     const {location} = this.props;
     return (
       <>
