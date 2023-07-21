@@ -6,16 +6,7 @@ import depo2 from '../assets/run_13.jpeg';
 import depo3 from '../assets/run_16.png';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
-function Arrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={ className }
-      style={ { ...style, display: 'none' } }
-    />
-  );
-}
+import Arrow from './ArrowCard';
 
 class CardDepo extends Component {
   render() {
@@ -30,6 +21,7 @@ class CardDepo extends Component {
       nextArrow: <Arrow />,
       prevArrow: <Arrow />,
       cssEase: 'linear',
+      lazyLoad: true,
     };
 
     return (

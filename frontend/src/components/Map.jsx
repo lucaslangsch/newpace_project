@@ -7,9 +7,13 @@ const containerStyle = {
 };
 const key = import.meta.env.VITE_API_GKEY   // Usa a chave de produção durante a fase de produção
 
+const options = {
+  streetViewControl: false,
+  mapTypeControl: false,
+}
+
 class Map extends Component {
   render() {
-    console.log('meta.env: ',import.meta.env);
     const {location} = this.props;
     return (
       <>
@@ -22,6 +26,7 @@ class Map extends Component {
               mapContainerStyle={containerStyle}
               center={location}
               zoom={14}
+              options={options}
             >
               <MarkerF position={location}/>
             </GoogleMap>
@@ -30,6 +35,7 @@ class Map extends Component {
               mapContainerStyle={containerStyle}
               center={location}
               zoom={14}
+              options={options}
             >
               <MarkerF position={location}/>
             </GoogleMap>
