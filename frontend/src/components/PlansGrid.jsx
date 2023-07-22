@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import './PlansGrid.css';
 import Plan from './Plan';
-import oneSport from '../helpers/plans.js';
+import { oneSport, twoSport, threeSport } from '../helpers/plans.js';
 import Metod from './Metod';
 
 class PlansGrid extends Component {
@@ -57,8 +57,8 @@ class PlansGrid extends Component {
               <span className="strong">DUATLO</span>
             </h2>
           </div>
-          <Plan plan={ oneSport.online } method="ONLINE" />
-          <Plan plan={ oneSport.presential } method="PRESENCIAL" />
+          <Plan plan={ twoSport.online } method="ONLINE" />
+          <Plan plan={ twoSport.presential } method="PRESENCIAL" />
         </section>
         
         <section className="grid-plans">
@@ -68,8 +68,8 @@ class PlansGrid extends Component {
               <span className="strong">TRIATLO:</span>
             </h2>
           </div>
-          <Plan plan={ oneSport.online } method="ONLINE" />
-          <Plan plan={ oneSport.presential } method="PRESENCIAL" />
+          <Plan plan={ threeSport.online } method="ONLINE" />
+          <Plan plan={ threeSport.presential } method="PRESENCIAL" />
         </section>
       </>
     );

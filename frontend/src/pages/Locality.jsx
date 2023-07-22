@@ -34,7 +34,7 @@ class Locality extends Component {
           <section className="grid-plans">
           <div className="title-plan">
             <h2>
-              TERÇAS E QUINTAS
+              TERÇAS
             </h2>
             <p><strong>Estreito</strong></p>
             <p>Beira-Mar Continental</p>
