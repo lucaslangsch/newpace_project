@@ -16,5 +16,5 @@ jobs:
         host: ${{ secrets.HOST }} 
         user: ${{ secrets.USER }}
         password: ${{ secrets.PASS }}
-        localDir: public_html
-        remoteDir: ../../frontend
+        localDir: /home/newpace2/
+        remoteDir: public_html
